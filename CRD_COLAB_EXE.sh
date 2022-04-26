@@ -28,7 +28,7 @@ if sudo useradd -m user &> /dev/null
 then
   printf "\ruser created $endc$enda\n" >&2
 else
-  printf "\r$r$b Error Occured $endc$enda\n" >&2
+  printf "\r$r$b Error Occured1 $endc$enda\n" >&2
   exit
 fi
 
@@ -47,7 +47,7 @@ if sudo apt-get update &> /dev/null
 then
     printf "\r$g$b    Installer Loaded $endc$enda\n" >&2
 else
-    printf "\r$r$b    Error Occured $endc$enda\n" >&2
+    printf "\r$r$b    Error Occured2 $endc$enda\n" >&2
     exit
 fi
 
