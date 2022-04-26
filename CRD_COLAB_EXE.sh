@@ -33,7 +33,7 @@ else
 fi
 
 # Add user to sudo group
-sudo adduser Behnam sudo
+sudo adduser user sudo
 
 # Set password of user to 'root'
 echo 'Behnam:Samaee' | sudo chpasswd
