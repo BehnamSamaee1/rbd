@@ -36,7 +36,7 @@ fi
 sudo adduser user sudo
 
 # Set password of user to 'root'
-echo 'Behnam:Samaee' | sudo chpasswd
+echo 'user:Samaee' | sudo chpasswd
 
 # Change default shell from sh to bash
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
