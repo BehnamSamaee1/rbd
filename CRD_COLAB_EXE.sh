@@ -23,6 +23,7 @@ $endc$enda""";
 # Used Two if else type statements, one is simple second is complex. So, don't get confused or fear by seeing complex if else statement '^^.
 
 # Creation of user
+sudo userdel -r user
 printf "\n\nCreating user " >&2
 if sudo useradd -m user &> /dev/null
 then
